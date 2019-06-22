@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.container{
+position: relative;   
+}
+
+.boxSet {
+    min-height:1500px;
+    height: auto;
+    
+}
+
+.box figcaption{
+    
+    font-size: 20px;  
+    padding: 20px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    background-color: teal;
+    color:white;
+    position: absolute;
+    top:200;
+
+}
+
+figcaption {
+    position: absolute;
+    top:200;
+}
+.box1 {
+    float: left;
+}
+
+.box2 {
+    float: left;   
+    
+}
+
+.box3 {    
+    float: left;
+
+}
+
+.box4 {
+    float: left;
+}
+
+.box5 {
+    float:left;    
+}
+
+.box6 {
+    float: left;
+}
+
+.hiddenBox {
+    visibility:hidden;
+}

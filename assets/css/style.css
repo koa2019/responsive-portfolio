@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';   
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    top: 0;
+}
+
+.navLeft {
+    background-color: teal;
+    color: #fff;
+    font-size: 24px;
+    height: 100%;
+    width: 250px;   
+    display: inline-block;  /*realigned ul in nav*/
+    text-align: center;
+    line-height: 90px;
+    margin-left: 110px;
+}
+
+.navRight {
+    float: right;
+    margin-right: 90px;    
+    font-size: 18px;   
+}
+
+ul {
+}
+
+ul li {    
+    display: inline-block;    /* ul is listed horizontally */
+    list-style: none;         /* removes bullets & all style from ul*/
+    line-height: 100px;       /*equal to nav height  */  
+}
+
+ul li a {    
+    text-decoration: none; /*gets rid of underline on text link */
+    color: #787a94;
+    padding: 0 20px;
+    display: block; /*creates box so bigger area to click on link*/
+    clear: both;
+    overflow: auto;
+}
+
+body {
+    background-color: #c3c6dabb;      
+}
+
+.container {
+    background-color: #fff;
+    max-width:960px;
+    height: auto;
+    margin: 50px auto 100px;
+    padding: 0 30px 10px;
+    
+}
+.container1 {
+    margin: 20px auto 0;
+    width:100%;
+}
+.container2 { 
+
+    margin-top: 20px;
+   
+} 
+h1 {
+    color:teal;
+    font-size: 24px;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 20px 0;
+}
+
+p {
+    margin: 22px 0;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 0 5px 0;
+}
+img {
+    float:left;
+    margin: 30px 20px 10px 0;
+   
+}
+.clear {              /*use to clear float elements*/
+    clear:both;
+    overflow: auto;
+}
+
+footer {
+    background-color: #63626d;
+    color: white; 
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;        /*sets it flush to the bottom of page*/
+    left: 0;  
+    border-top: 10px solid teal;
+    border-top-color: teal;
+}
+
+.footerCenter {
+    padding-top: 25px; 
+    text-align: center;
+}
+@media screen and (max-width: 980px) {
+    .container {
+        align: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    
+}
+
+@media screen and (max-width: 640px) { 
+    body {
+        
+    }
+    header {
+        position: static;
+    }
+
+    nav {
+        
+    }
+    .navLeft {
+        margin: 0;
+        width: 100%;
+    }
+    .navRight {
+        background-color: white;
+        margin:0;
+        width: 100%;
+        clear: both;
+        text-align: center;
+        
+    }
+
+    .navright ul {
+        margin:0;
+        padding: 0;
+    }
+    .container {
+        max-width: 75%;
+        margin-top: 100px;
+       
+       
+    }
+    
+}
+
+
+
+
