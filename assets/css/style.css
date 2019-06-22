@@ -59,6 +59,8 @@ body {
     height: auto;
     margin: 50px auto 100px;
     padding: 0 30px 10px;
+    position: relative;   
+    top:45px;
     
 }
 .container1 {
@@ -110,6 +112,10 @@ footer {
     padding-top: 25px; 
     text-align: center;
 }
+
+
+
+
 @media screen and (max-width: 980px) {
     .container {
         align: left;
@@ -153,9 +159,7 @@ footer {
        
     }
 
-    div.boxSet {
-        align-content: center;
-    }
+    
     img {
        float:none;
        
