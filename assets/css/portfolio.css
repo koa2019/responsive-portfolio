@@ -59,3 +59,10 @@ figcaption {
 .hiddenBox {
     visibility:hidden;
 }
+
+@media screen and (max-width: 640px) { 
+
+    .boxSet {
+        margin-left: 50px;   
+    }
+}
