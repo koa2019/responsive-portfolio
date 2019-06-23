@@ -3,6 +3,7 @@
     padding:0;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';   
     box-sizing: border-box;
+
 }
 
 nav {
@@ -65,11 +66,11 @@ body {
 }
 .container1 {
     margin: 20px auto 0;
-    width:100%;
 }
 .container2 { 
 
     margin-top: 20px;
+    
    
 } 
 h1 {
@@ -113,19 +114,130 @@ footer {
     text-align: center;
 }
 
+/*---------------------- */
+/* contact.html specific css */
+.container2 {
+    font-size: 18px;
+}
 
+.showForm {
+    padding: 0 10px 10px 0;
+    line-height: 30px;
+    color: #787a94;
 
+}
 
+label {
+    display: block;
+}
+
+input, textarea {
+    display: block;
+}
+
+#name {
+    width: 100%;         /*extends boxes to full width of form*/
+}
+#email {
+    width: 100%;         /*extends boxes to full width of form*/
+}
+#message {
+    width: 100%;         /*extends boxes to full width of form*/
+    height: 100px;
+}
+#submit {
+    background-color: teal;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+}
+
+/* --------------------------- */
+/* portfolio.html specific css */
+  .container{
+  }
+  
+  .boxSet {
+      min-height:1500px;
+      height: auto;
+      
+  }
+  
+  .box {
+      position: relative;
+  }
+  
+  .box figcaption{
+      
+      font-size: 20px;  
+      padding: 20px;
+      height: 60px;
+      width: 300px;
+      text-align: center;
+      background-color: teal;
+      color:white;
+      position: absolute;
+      top:260px;
+  
+  }
+  
+  figcaption {
+      position: absolute;
+      top:200;
+  }
+  .box1 {
+      float: left;
+  }
+  
+  .box2 {
+      float: left;   
+      
+  }
+  
+  .box3 {    
+      float: left;
+  
+  }
+  
+  .box4 {
+      float: left;
+  }
+  
+  .box5 {
+      float:left;    
+  }
+  
+  .box6 {
+      float: left;
+  }
+  
+  .hiddenBox {
+      visibility:hidden;
+  }
+
+/* --------------- */
+/* responsive css */
 @media screen and (max-width: 980px) {
+
+    header body footer {
+        margin-left: 30px;
+    }
     .container {
-        align: left;
+        max-width: 75%;
+        top: 20px; 
+        margin-bottom: 200px;
+        height:auto;
+        
+        
     }
 }
 
 @media screen and (max-width: 768px) {
    
-    
+    .container {
+        max-width: 75%;
 }
+
 
 @media screen and (max-width: 640px) { 
 
@@ -133,9 +245,6 @@ footer {
         position: static;
     }
 
-    nav {
-        
-    }
     .navLeft {
         margin: 0;
         width: 100%;
@@ -146,7 +255,7 @@ footer {
         width: 100%;
         clear: both;
         text-align: center;
-        
+        height:auto;
     }
 
     .navright ul {
@@ -161,10 +270,14 @@ footer {
 
     
     img {
-       float:none;
+       width: 100%;
+       height: auto;
        
     }
-    
+    .boxSet {
+        margin-left: 50px;   
+    }
+}
 }
 
 
