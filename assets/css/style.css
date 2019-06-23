@@ -28,9 +28,6 @@ nav {
     font-size: 18px;   
 }
 
-ul {
-}
-
 ul li {    
     display: inline-block;    /* ul is listed horizontally */
     list-style: none;         /* removes bullets & all style from ul*/
@@ -64,11 +61,11 @@ body {
     margin: 20px auto 0;
 }
 .container2 { 
-
+    font-size: 18px;
     margin-top: 20px;
     
-   
 } 
+
 h1 {
     color:teal;
     font-size: 24px;
@@ -113,14 +110,14 @@ footer {
 /*---------------------- */
 /* contact.html specific css */
 .container2 {
-    font-size: 18px;
+    
 }
 
 .showForm {
     padding: 0 10px 10px 0;
     line-height: 30px;
     color: #787a94;
-
+    
 }
 
 label {
@@ -211,16 +208,27 @@ input, textarea {
 /* responsive css */
 @media screen and (max-width: 980px) {
 
+    body {
+        margin-left: 0;
+    }
     header body footer {
         margin-left: 30px;
     }
     .container {
         max-width: 75%;
-        top: 20px; 
         margin-bottom: 200px;
         height:auto;
-        
-        
+        position: absolute;
+        top:100px;
+        left:110px;
+    }
+    .aboutMe {
+        margin-top:0;
+    }
+    .container2 {
+      margin-top: 0;
+      min-width: 400px;
+
     }
 }
 
