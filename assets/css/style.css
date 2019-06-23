@@ -1,7 +1,6 @@
 *{
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';   
     box-sizing: border-box;
-
 }
 
 nav {
@@ -265,7 +264,11 @@ input, textarea {
     
     img {
        height: auto;
-       
+       float: none;
+       margin-top:10px;
+    }
+    .aboutMe {
+       margin-left: 50px;
     }
     .box {
         margin: 0 50px;   
