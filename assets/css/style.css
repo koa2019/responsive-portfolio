@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding:0;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';   
     box-sizing: border-box;
 
@@ -18,8 +16,7 @@ nav {
     background-color: teal;
     color: #fff;
     font-size: 24px;
-    height: 100%;
-    width: 250px;   
+    width: 25%;   
     display: inline-block;  /*realigned ul in nav*/
     text-align: center;
     line-height: 90px;
@@ -154,17 +151,14 @@ input, textarea {
 
 /* --------------------------- */
 /* portfolio.html specific css */
-  .container{
-  }
-  
-  .boxSet {
+   .boxSet {
       min-height:1500px;
       height: auto;
-      
   }
   
   .box {
       position: relative;
+      
   }
   
   .box figcaption{
@@ -191,7 +185,6 @@ input, textarea {
   
   .box2 {
       float: left;   
-      
   }
   
   .box3 {    
@@ -234,8 +227,10 @@ input, textarea {
 
 @media screen and (max-width: 768px) {
    
+
     .container {
         max-width: 75%;
+
 }
 
 
@@ -267,15 +262,14 @@ input, textarea {
         margin-top: 100px;
        
     }
-
     
     img {
-       width: 100%;
        height: auto;
        
     }
-    .boxSet {
-        margin-left: 50px;   
+    .box {
+        margin: 0 50px;   
+
     }
 }
 }
