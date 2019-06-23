@@ -109,10 +109,6 @@ footer {
 
 /*---------------------- */
 /* contact.html specific css */
-.container2 {
-    
-}
-
 .showForm {
     padding: 0 10px 10px 0;
     line-height: 30px;
@@ -207,27 +203,26 @@ input, textarea {
 /* --------------- */
 /* responsive css */
 @media screen and (max-width: 980px) {
-
-    body {
-        margin-left: 0;
+    .navLeft {
+        margin-left: 50px;
     }
-    header body footer {
-        margin-left: 30px;
+    .navRight {
+        margin-right: 10px;
     }
     .container {
         max-width: 75%;
+        min-width: 600px;
         margin-bottom: 200px;
         height:auto;
         position: absolute;
         top:100px;
-        left:110px;
+        left:50px;
     }
     .aboutMe {
         margin-top:0;
     }
     .container2 {
       margin-top: 0;
-      min-width: 400px;
 
     }
 }
