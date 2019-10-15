@@ -1,5 +1,5 @@
-*{
-    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';   
+* {
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     box-sizing: border-box;
 }
 
@@ -16,8 +16,9 @@ nav {
     color: #fff;
     font-size: 24px;
     font-weight: 600;
-    width: 25%;   
-    display: inline-block;  /*realigned ul in nav*/
+    width: 25%;
+    display: inline-block;
+    /*realigned ul in nav*/
     text-align: center;
     line-height: 90px;
     margin-left: 110px;
@@ -25,50 +26,55 @@ nav {
 
 .navRight {
     float: right;
-    margin-right: 90px;    
-    font-size: 18px;   
+    margin-right: 90px;
+    font-size: 18px;
 }
 
-ul li {    
-    display: inline-block;    /* ul is listed horizontally */
-    list-style: none;         /* removes bullets & all style from ul*/
-    line-height: 100px;       /*equal to nav height  */  
+ul li {
+    display: inline-block;
+    /* ul is listed horizontally */
+    list-style: none;
+    /* removes bullets & all style from ul*/
+    line-height: 100px;
+    /*equal to nav height  */
 }
 
-ul li a {    
-    text-decoration: none; /*gets rid of underline on text link */
+ul li a {
+    text-decoration: none;
+    /*gets rid of underline on text link */
     color: #787a94;
     padding: 0 20px;
-    display: block; /*creates box so bigger area to click on link*/
+    display: block;
+    /*creates box so bigger area to click on link*/
     clear: both;
     overflow: auto;
 }
 
 body {
-    background-color: #c3c6dabb;      
+    background-color: #c3c6dabb;
 }
 
 .container {
     background-color: #fff;
-    max-width:960px;
+    max-width: 960px;
     height: auto;
     margin: 50px auto 100px;
     padding: 0 30px 10px;
-    position: relative;   
-    top:45px;
-    
+    position: relative;
+    top: 45px;
 }
+
 .container1 {
     margin: 20px auto 0;
 }
-.container2 { 
+
+.container2 {
     font-size: 18px;
     margin-top: 20px;
-    
-} 
+}
 
 h1 {
-    color:teal;
+    color: teal;
     font-size: 24px;
     font-weight: bolder;
     display: inline-block;
@@ -81,60 +87,73 @@ p {
     line-height: 30px;
     padding: 0 0 5px 0;
 }
+
 img {
-    float:left;
+    float: left;
     margin: 30px 20px 10px 0;
-   
 }
-.clear {              /*use to clear float elements*/
-    clear:both;
+
+.clear {
+    /*use to clear float elements*/
+    clear: both;
     overflow: auto;
 }
 
 footer {
     background-color: #63626d;
-    color: white; 
+    color: white;
     width: 100%;
     height: 60px;
     position: fixed;
-    bottom: 0;        /*sets it flush to the bottom of page*/
-    left: 0;  
+    bottom: 0;
+    /*sets it flush to the bottom of page*/
+    left: 0;
     border-top: 10px solid teal;
     border-top-color: teal;
 }
 
 .footerCenter {
-    padding-top: 25px; 
+    padding-top: 25px;
     text-align: center;
 }
 
+
 /*---------------------- */
+
+
 /* contact.html specific css */
+
 .showForm {
     padding: 0 10px 10px 0;
     line-height: 30px;
     color: #787a94;
-    
 }
 
 label {
     display: block;
 }
 
-input, textarea {
+input,
+textarea {
     display: block;
 }
 
 #name {
-    width: 100%;         /*extends boxes to full width of form*/
+    width: 100%;
+    /*extends boxes to full width of form*/
 }
+
 #email {
-    width: 100%;         /*extends boxes to full width of form*/
+    width: 100%;
+    /*extends boxes to full width of form*/
 }
+
 #message {
-    width: 100%;         /*extends boxes to full width of form*/
+    width: 100%;
+    /*extends boxes to full width of form*/
     height: 100px;
 }
+
 #submit {
     background-color: teal;
     color: #fff;
@@ -142,64 +161,71 @@ input, textarea {
     padding: 5px;
 }
 
+
 /* --------------------------- */
+
+
 /* portfolio.html specific css */
-   .boxSet {
+
+.boxSet {
     min-height: 1500px;
-      height: auto;
-  }
-  
-  .box {
-      position: relative;
-      
-  }
-  
-  .box figcaption{
-      
-      font-size: 20px;  
-      padding: 20px;
-      height: 60px;
-      width: 300px;
-      text-align: center;
-      background-color: teal;
-      color:white;
-      position: absolute;
-      top:260px;
-  
-  }
-  
-  
-  .box1 {
-      float: left;
-  }
-  
-  .box2 {
-      float: left;   
-  }
-  
-  .box3 {    
-      float: left;
-  
-  }
-  
-  .box4 {
-      float: left;
-  }
-  
-  .box5 {
-      float:left;    
-  }
-  
-  .box6 {
-      float: left;
-  }
-  
-  .hiddenBox {
-      visibility:hidden;
-  }
+    height: auto;
+}
+
+.box {
+    position: relative;
+}
+
+.box figcaption {
+    font-size: 20px;
+    padding: 20px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    position: absolute;
+    top: 260px;
+}
+
+.box1 {
+    float: left;
+}
+
+.box2 {
+    float: left;
+}
+
+.box3 {
+    float: left;
+}
+
+.box4 {
+    float: left;
+}
+
+.box5 {
+    float: left;
+}
+
+.box6 {
+    float: left;
+}
+
+.box7 {
+    float: left;
+}
+
+.hiddenBox {
+    visibility: hidden;
+}
+
 
 /* --------------- */
+
+
 /* responsive css */
+
 @media screen and (max-width: 980px) {
     .navLeft {
         margin-left: 50px;
@@ -211,21 +237,20 @@ input, textarea {
         max-width: 75%;
         min-width: 600px;
         margin-bottom: 200px;
-        height:auto;
+        height: auto;
         position: absolute;
-        top:100px;
-        left:50px;
+        top: 100px;
+        left: 50px;
     }
     .aboutMe {
-        margin-top:0;
+        margin-top: 0;
     }
     .container2 {
-      margin-top: 0;
+        margin-top: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
-   
     .navLeft {
         font-size: 20px;
     }
@@ -236,26 +261,22 @@ input, textarea {
         width: 250px;
         height: auto;
     }
-  .box figcaption {
+    .box figcaption {
         width: 250px;
         height: 45px;
         top: 225px;
     }
-    
 }
 
-
-@media screen and (max-width: 640px) { 
-
+@media screen and (max-width: 640px) {
     nav {
         position: static;
-        width:100%;
+        width: 100%;
         height: 60px;
     }
-    
     .navLeft {
         width: 100%;
-        margin-left:0;
+        margin-left: 0;
         line-height: 60px;
     }
     .navRight {
@@ -263,36 +284,29 @@ input, textarea {
         margin: 0;
         width: 100%;
         text-align: center;
-      
         line-height: 25%;
     }
-
     .navright ul {
-        margin:0;
+        margin: 0;
         padding: 0;
     }
     .container {
         margin-left: 40px;
         min-width: 400px;
         margin-top: 100px;
-       
     }
-    
     img {
-       height: auto;
-       float: none;
-       margin-top:10px;
+        height: auto;
+        float: none;
+        margin-top: 10px;
     }
     .aboutMe {
-       margin-left: 50px;
+        margin-left: 50px;
     }
     .box {
-        margin: 0 50px;   
-
+        margin: 0 50px;
     }
 }
+
+
 }
-
-
-
-
