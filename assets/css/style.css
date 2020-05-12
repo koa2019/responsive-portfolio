@@ -175,7 +175,10 @@ textarea {
 .box {
     position: relative;
 }
-
+.box img {
+    height: 250px;
+    width: 250px;
+}
 .box figcaption {
     font-size: 20px;
     padding: 20px;
