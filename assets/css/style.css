@@ -12,7 +12,7 @@ nav {
 }
 
 .navLeft {
-    background-color: teal;
+    background-color: rgb(111, 112, 126);
     color: #fff;
     font-size: 24px;
     font-weight: 600;
@@ -74,7 +74,7 @@ body {
 }
 
 h1 {
-    color: teal;
+    color: rgb(111, 112, 126);
     font-size: 24px;
     font-weight: bolder;
     display: inline-block;
@@ -108,8 +108,8 @@ footer {
     bottom: 0;
     /*sets it flush to the bottom of page*/
     left: 0;
-    border-top: 10px solid teal;
-    border-top-color: teal;
+    border-top: 10px solid rgb(111, 112, 126);
+    border-top-color: rgb(111, 112, 126);
 }
 
 .footerCenter {
@@ -155,7 +155,7 @@ textarea {
 }
 
 #submit {
-    background-color: teal;
+    background-color:rgb(111, 112, 126);
     color: #fff;
     font-size: 18px;
     padding: 5px;
@@ -182,7 +182,7 @@ textarea {
     height: 60px;
     width: 300px;
     text-align: center;
-    background-color: teal;
+    background-color: rgb(111, 112, 126);
     color: white;
     position: absolute;
     top: 260px;
@@ -306,7 +306,4 @@ textarea {
     .box {
         margin: 0 50px;
     }
-}
-
-
 }
