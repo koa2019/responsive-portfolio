@@ -202,6 +202,7 @@ textarea {
 
 .githubdiv {
     margin: 10px 0 10px 5px;
+    min-height: 36px;
 }
 .hiddenBox {
     visibility: hidden;
