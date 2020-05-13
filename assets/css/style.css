@@ -175,55 +175,31 @@ textarea {
 .box {
     position: relative;
     float: left;
-    border-width: 2px;
+    /* border-width: 2px;
     border-style: solid;
-    border-color: red;
+    border-color: red; */
     margin: 20px;
 }
 .box img {
     height: 250px;
     width: 250px;
+    margin: 0 0 20px;
 }
 .box figcaption {
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
     /* height: 60px; */
     width: 100%;
     text-align: center;
     background-color: rgb(111, 112, 126);
     color: white;
     position: absolute;
-    top: 70%;
+    top: 71%;
 }
 
-/* .box1 {
-    float: left;
+.githubdiv {
+    margin: 10px 0 10px 5px;
 }
-
-.box2 {
-    float: left;
-}
-
-.box3 {
-    float: left;
-}
-
-.box4 {
-    float: left;
-}
-
-.box5 {
-    float: left;
-}
-
-.box6 {
-    float: left;
-}
-
-.box7 {
-    float: left;
-} */
-
 .hiddenBox {
     visibility: hidden;
 }
