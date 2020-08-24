@@ -64,6 +64,16 @@ body {
     top: 45px;
 }
 
+.containerContact {
+    background-color: #fff;
+    max-width: 560px;
+    height: auto;
+    margin: 50px auto 100px;
+    padding: 0 30px 10px;
+    position: relative;
+    top: 45px;
+}
+
 .container1 {
     margin: 20px auto 0;
 }
