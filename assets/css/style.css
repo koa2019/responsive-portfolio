@@ -194,7 +194,7 @@ textarea {
     margin: 20px;
 }
 .box img {
-    height: 250px;
+    height: 200px;
     width: 250px;
     margin: 0 0 20px;
 }
@@ -207,11 +207,11 @@ textarea {
     background-color: rgb(111, 112, 126);
     color: white;
     position: absolute;
-    top: 71%;
+    top: 68%;
 }
 
 .githubdiv {
-    margin: 10px 0 10px 5px;
+    margin: 25px 0 10px 5px;
     min-height: 36px;
 }
 .hiddenBox {
