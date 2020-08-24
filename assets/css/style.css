@@ -19,7 +19,7 @@ nav {
 .navLeft {
     background-color: rgb(111, 112, 126);
     color: #fff;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     width: 25%;
     display: inline-block;
@@ -29,19 +29,16 @@ nav {
     margin-left: 110px;
 }
 .navLeft a {
-    text-decoration: none;
-    /*gets rid of underline on text link */
     color: white;
 }
 a:hover, a:active {
     color: rgb(142, 209, 41);
-    text-decoration: none;
-    /*gets rid of underline on text link */
 }
 .navRight {
     float: right;
     margin-right: 90px;
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 ul li {
@@ -124,6 +121,11 @@ img {
 }
 
 footer {
+    text-align: center;
+    padding: 25px 0;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     background-color: #63626d;
     color: white;
     width: 100%;
@@ -132,18 +134,11 @@ footer {
     bottom: 0;
     /*sets it flush to the bottom of page*/
     left: 0;
-    border-top: 10px solid rgb(111, 112, 126);
-    border-top-color: rgb(111, 112, 126);
 }
 
-.footerCenter {
-    padding-top: 25px;
-    text-align: center;
+footer a {
+    padding: 0 20px;
 }
-
-
-/*---------------------- */
-
 
 /* contact.html specific css */
 
