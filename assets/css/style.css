@@ -2,6 +2,11 @@
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    color: rgb(95, 148, 15);
+
+}
 
 nav {
     background-color: #fff;
@@ -23,7 +28,16 @@ nav {
     line-height: 90px;
     margin-left: 110px;
 }
-
+.navLeft a {
+    text-decoration: none;
+    /*gets rid of underline on text link */
+    color: white;
+}
+a:hover, a:active {
+    color: rgb(142, 209, 41);
+    text-decoration: none;
+    /*gets rid of underline on text link */
+}
 .navRight {
     float: right;
     margin-right: 90px;
