@@ -182,8 +182,6 @@ textarea {
 
 
 /* --------------------------- */
-
-
 /* portfolio.html specific css */
 
 .boxSet {
@@ -229,10 +227,7 @@ textarea {
 
 
 /* --------------- */
-
-
 /* responsive css */
-
 @media screen and (max-width: 980px) {
     .navLeft {
         margin-left: 50px;
