@@ -39,22 +39,16 @@
 
         <form class="container2">
             <div class="showForm">
-                <label>Name</label>
-                <input type="text" id="name">
-            </div>
+                <label>Name *</label>
+                <input type="text" id="name" required>
 
-            <div class="showForm">
-                <label>Email</label>
-                <input type="email" id="email">
-            </div>
+                <label>Email *</label>
+                <input type="email" id="mail" name="email" required>
+          
+                <label>Message *</label>
+                <textarea id="message" required></textarea>
 
-            <div class="showForm">
-                <label>Message</label>
-                <textarea id="message"></textarea>
-            </div>
-
-            <div class="showForm">
-                <!-- Trigger/Open The Modal -->
+                <!-- Trigger Modal -->
                 <button id="myBtn">Submit</button>
             </div>
         </form>
@@ -77,7 +71,7 @@
     </footer>
 
 </body>
-<script>
+<script >
     // Get modal
     var modal = document.getElementById("myModal");
 
@@ -88,10 +82,10 @@
     var span = document.getElementsByClassName("close")[0];
 
     // When the user clicks the button, open the modal 
-    btn.onclick = function () {
-        modal.style.display = "block";
-        event.preventDefault()
-    }
+    // btn.onclick = function () {
+    //     modal.style.display = "block";
+    //     event.preventDefault()
+    // }
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function () {
