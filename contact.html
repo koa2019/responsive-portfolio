@@ -1,57 +1,46 @@
 <!DOCTYPE html>
 
-<html lang="en-us">
+<html lang="en">
 
 <head>
 
     <title>Danielle Fernandez's Portfolio</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="assets/css/reset.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <!--<link rel="stylesheet" href="assets/css/contactstyle.css" type="text/css"/>  -->
-   
+
 </head>
 
-<header>
-    <nav>
-
-        <div class="navLeft"><a href="index.html">Danielle Fernandez</a></div>
-
-        <div class="navRight">
-            <ul>
-                <li><a href="index.html">About</a></li>
-
-                <li><a href="portfolio.html">Portfolio</a></li>
-
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-        </div>
-    </nav>
-</header>
-
 <body>
+
+    <header>
+        <nav>
+            <div class="navLeft"><a href="index.html">Danielle Fernandez</a></div>
+
+            <div class="navRight">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <div class="containerContact">
 
         <div class="container1">
-
             <h1>Contact Form</h1>
             <hr>
             <hr>
-
         </div>
 
-        
         <form class="container2">
-
             <div class="showForm">
-
                 <label>Name</label>
-
                 <input type="text" id="name">
-
             </div>
 
             <div class="showForm">
@@ -65,10 +54,21 @@
             </div>
 
             <div class="showForm">
-                <input type="Submit" value="Submit" id="submit">
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtn">Submit</button>
+            </div>
+        </form>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Your message has been sent. Thank You.</p>
             </div>
 
-        </form>
+        </div>
     </div>
 
     <footer>
@@ -77,5 +77,33 @@
     </footer>
 
 </body>
+<script>
+    // Get modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+        event.preventDefault()
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
 
 </html>
