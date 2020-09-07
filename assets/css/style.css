@@ -2,10 +2,10 @@
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
     color: rgb(95, 148, 15);
-
 }
 
 nav {
@@ -27,12 +27,15 @@ nav {
     min-height: 90px;
     padding: 20px 20px 20px 30px;
 }
+
 .navLeft a {
     color: white;
 }
+
 a:hover, a:active {
     color: rgb(142, 209, 41);
 }
+
 .navRight {
     float: right;
     margin-right: 90px;
@@ -67,16 +70,6 @@ body {
 .container {
     background-color: #fff;
     max-width: 960px;
-    height: auto;
-    margin: 50px auto 100px;
-    padding: 0 30px 10px;
-    position: relative;
-    top: 45px;
-}
-
-.containerContact {
-    background-color: #fff;
-    max-width: 560px;
     height: auto;
     margin: 50px auto 100px;
     padding: 0 30px 10px;
@@ -139,136 +132,14 @@ footer a {
     padding: 0 20px;
 }
 
-
-/* ------------------------ */
-/* contact.html specific css */
-
-
-/* --------------------------- */
-/* portfolio.html specific css */
-
-.boxSet {
-    min-height: 500px;
-    height: auto;
-    background-color:  #d5d6dfbb;
-
-}
-
-.box {
-    background-color: white;
-    position: relative;
-    float: left;
-    border-width: 1px;
-    border-style: solid;
-    border-color:  #868a97bb;
-    margin: 20px;
-}
-.box img {
-    height: 200px;
-    width: 250px;
-    margin: 0 0 20px;
-}
-.box figcaption {
-    font-size: 20px;
-    padding: 10px;
-    /* height: 60px; */
-    width: 100%;
-    text-align: center;
-    background-color: rgb(111, 112, 126);
-    color: white;
-    position: absolute;
-    top: 68%;
-}
-
-.githubdiv {
-    margin: 25px 0 10px 5px;
-    min-height: 36px;
-}
-.hiddenBox {
-    visibility: hidden;
-}
-
-
-/* --------------- */
-/* responsive css */
 @media screen and (max-width: 980px) {
-    .navLeft {
-        margin-left: 50px;
-    }
-    .navRight {
-        margin-right: 10px;
-    }
-    .container {
-        max-width: 75%;
-        min-width: 600px;
-        margin-bottom: 200px;
-        height: auto;
-        position: absolute;
-        top: 100px;
-        left: 50px;
-    }
-    .aboutMe {
-        margin-top: 0;
-    }
-    .container2 {
-        margin-top: 0;
-    }
+
 }
 
 @media screen and (max-width: 768px) {
-    .navLeft {
-        font-size: 20px;
-    }
-    .container {
-        width: 75%;
-    }
-    img {
-        width: 250px;
-        height: auto;
-    }
-    .box figcaption {
-        /* width: 250px; */
-        height: 45px;
-        top: 225px;
-    }
+   
 }
 
-@media screen and (max-width: 640px) {
-    nav {
-        position: static;
-        width: 100%;
-        height: 60px;
-    }
-    .navLeft {
-        width: 100%;
-        margin-left: 0;
-        line-height: 60px;
-    }
-    .navRight {
-        background-color: white;
-        margin: 0;
-        width: 100%;
-        text-align: center;
-        line-height: 25%;
-    }
-    .navright ul {
-        margin: 0;
-        padding: 0;
-    }
-    .container {
-        margin-left: 40px;
-        min-width: 400px;
-        margin-top: 100px;
-    }
-    img {
-        height: auto;
-        float: none;
-        margin-top: 10px;
-    }
-    .aboutMe {
-        margin-left: 50px;
-    }
-    .box {
-        margin: 0 50px;
-    }
+@media screen and (max-width: 640px) { 
+
 }
