@@ -37,13 +37,14 @@ textarea {
     width: 100%;
     /*extends boxes to full width of form*/
     height: 100px;
+    margin-bottom: 10px;
 }
 
-#submit {
+.submit {
     background-color:rgb(111, 112, 126);
     color: #fff;
     font-size: 18px;
-    padding: 5px;
+    float: right;
 }
 
 /* The Modal (background) */
