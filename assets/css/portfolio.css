@@ -1,6 +1,5 @@
 
 .boxSet {
-    min-height: 500px;
     height: auto;
     background-color:  #d5d6dfbb;
 
@@ -13,7 +12,8 @@
     border-width: 1px;
     border-style: solid;
     border-color:  #868a97bb;
-    margin: 20px;
+    margin: 22px;
+
 }
 .box img {
     height: 200px;
