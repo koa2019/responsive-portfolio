@@ -67,6 +67,16 @@ body {
     background-color: #c3c6dabb;
 }
 
+.aboutContainer{
+    background-color: #fff;
+    max-width: 660px;
+    height: auto;
+    margin: 50px auto 100px;
+    padding: 0 30px 10px;
+    position: relative;
+    top: 45px;
+}
+
 .container {
     background-color: #fff;
     max-width: 960px;
