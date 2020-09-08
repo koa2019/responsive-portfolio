@@ -35,6 +35,9 @@ nav {
 a:hover, a:active {
     color: rgb(142, 209, 41);
 }
+button:hover {
+    color: rgb(142, 209, 41);
+}
 
 .navRight {
     float: right;

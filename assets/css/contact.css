@@ -23,6 +23,10 @@ label {
 input,
 textarea {
     display: block;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  rgb(35, 51, 10);
 }
 
 #name {
@@ -47,6 +51,7 @@ textarea {
     color: #fff;
     font-size: 18px;
     float: right;
+    border-radius: 4px;
 }
 
 /* The Modal (background) */
@@ -54,7 +59,7 @@ textarea {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 200px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -70,7 +75,7 @@ textarea {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 40%;
   }
   
   /* The Close Button */

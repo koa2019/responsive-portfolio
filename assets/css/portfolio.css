@@ -9,9 +9,9 @@
     background-color: white;
     position: relative;
     float: left;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
-    border-color:  #868a97bb;
+    border-color: rgb(95, 148, 15);
     margin: 22px;
 
 }
